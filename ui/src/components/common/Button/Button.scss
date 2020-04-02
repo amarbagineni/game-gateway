@@ -1,0 +1,18 @@
+
+@import "../../../styles/index.scss";
+
+.button-component {
+    button {
+        padding: 9px 12px;
+        color: $primaryColor4;
+        background-color: $secondaryColor1;
+        font-size: 0.8em;
+        cursor: pointer;
+        outline: none;
+        border: none;
+
+        &:active {
+            background-color: rgba($secondaryColor1, 0.8);
+        }
+    }
+}

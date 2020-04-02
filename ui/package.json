@@ -1,0 +1,28 @@
+{
+  "name": "game-gateway-ui",
+  "version": "1.0.0",
+  "description": "the Ui application for the game-gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amarbagineni/game-gateway.git"
+  },
+  "author": "Amarnath Bagineni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarbagineni/game-gateway/issues"
+  },
+  "homepage": "https://github.com/amarbagineni/game-gateway#readme",
+  "dependencies": {
+    "@types/react": "^16.9.32",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3"
+  }
+}

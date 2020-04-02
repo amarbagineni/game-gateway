@@ -1,0 +1,10 @@
+// Accumulate all repetitive scss here
+@mixin form-label {
+    label {
+        font-size: small;
+        font-weight: bold;
+        .is-required {
+            color: red;
+        }
+    }
+}

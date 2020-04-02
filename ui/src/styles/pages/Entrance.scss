@@ -1,0 +1,29 @@
+@import "./../index.scss";
+
+.login-in-container {
+
+    background-color: $primaryColor3;
+    padding: 10px;
+    text-align: center;
+
+    .redeem-container {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        border: 1px dashed $primaryColor2;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .redeemcode-message {
+        font-size: small;
+    }
+
+    .enter-box {
+        margin: auto 50px;
+        margin-top: 50px;
+        .button-component {
+            margin-top: 20px;
+        }
+    }
+}

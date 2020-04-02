@@ -1,0 +1,28 @@
+@import "./../index.scss";
+
+.game-center-container {
+    display: flex;
+    border: 1px dashed $primaryColor2;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .game-display {
+        margin: 10px;
+        background-color: $primaryColor3;
+        padding: 10px;
+        text-align: center;
+        width: 190px;
+
+        .game-image {
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .game-name {
+                font-size: small;
+            }
+        }
+        .button-component {
+            margin-top: 20px;
+        }
+    }
+}
