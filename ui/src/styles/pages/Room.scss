@@ -1,3 +1,52 @@
+@import "./../index.scss";
+
 .room-component {
-    color: yellow;
+    color: $primaryColor1;
+    border-top: 1px solid $primaryColor2;
+
+    .compose-chat {
+        display: flex;
+    }
+
+    .game-meta {
+        display: flex;
+        padding-top: 20px;
+        align-items: center;
+
+        .title-text {
+            text-align: start;
+            .max-players {
+                font-size: small;
+            }
+            margin-right: 20px;
+        }
+
+        .invite-link-container {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+
+            .invite-text {
+                font-size: small;
+                flex: 1;
+                min-width: 80px;
+            }
+
+            .input-container {
+                width: 300px;
+                .input-wrapper {
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .the-game {
+        margin-top: 20px;
+        outline: 1px dashed $primaryColor2;
+        width: 100%;
+        height: 500px;
+    }
 }
