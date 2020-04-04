@@ -15,9 +15,9 @@ const RoomChat = (props) => {
 
     return (<div className={"room-chat-component"}>
        <div>Chat</div>
+       {getChat({name: "John", message: "This is the test chat message this is a really long message that can span some multi line .. lets see how this is", time: "12:00 pm"})}
        {getChat({name: "John", message: "This is the test chat message", time: "12:00 pm"})}
-       {getChat({name: "John", message: "This is the test chat message", time: "12:00 pm"})}
-       {getChat({name: "John", message: "This is the test chat message", time: "12:00 pm"})}
+       {getChat({name: "Alcharemez", message: "This is the test chat message", time: "12:00 pm"})}
     </div>)
 }
 
